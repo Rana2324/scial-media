@@ -340,21 +340,24 @@ body{
 }
 
 
-.adstext{
-    background-color: white;
-    width: 50%;
-}
-
 .dibug{
-    font-size: 30px;
-     background-color: white;
+    background-color: white;
     margin-top: 20px;
+	text-align: center;
+	padding: 20px;
     
 } 
 .dibug a i{
    color: red; 
+	font-size: 45px;
 }
-
+.adstext{
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	background-color: white;
+	font-size: 25px;
+}
 
 
 /*rightsidebar end here*/
