@@ -4,6 +4,9 @@
     outline: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: gray;
+}
 /*navbar start here*/
 .navbar{
     width: 100%;
@@ -84,7 +87,7 @@
     width: 80%;
     height: 100%;
     margin: auto;
-    background-color: azure;
+    
     overflow: hidden;
 }
 /*content end here*/
@@ -98,6 +101,8 @@
 }
 .myprofile{
     width: 100%;
+     background-color: white;
+    margin-bottom: 20px;
    
    
     
@@ -130,6 +135,8 @@
     width: 100%;
     background-color: lightblue;
     padding: 10px 12px;
+     background-color: white;
+    margin-bottom: 20px;
 }
 .mydaily a{
      display: block;
@@ -143,8 +150,9 @@
 .interest{
     width: 100%;
     padding: 10px 12px;
-    background-color: blue;
-    margin-bottom: 10px;
+     background-color: white;
+    margin-bottom: 20px;
+    
 }
 .interest h3{
     text-align: center;
@@ -159,6 +167,9 @@
 }
 .massage{
     width: 100%;
+     background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .micons a {
     float: right;
@@ -178,10 +189,16 @@
      margin-right: 2.5%;
     float: left;
 }
+.post{
+    background-color: white;
+    margin-bottom: 10px;
+}
 .postsub{
     width: 100%;
     padding: 12px;
     margin-top: 30px;
+     background-color: white;
+    margin-bottom: 10px;
 }
 
 .name{
@@ -272,6 +289,8 @@
     padding: 10px;
     font-size: 20px;
     margin-bottom: 20px;
+     background-color: white;
+    margin-bottom: 10px;
 }
 .infoimg {
     width: 100%;
@@ -291,6 +310,9 @@
     padding: 10px;
     margin-bottom: 30px;
     font-size: 20px;
+     background-color: white;
+    margin-bottom: 10px;
+    overflow: hidden;
      
 }
 .text p{
@@ -303,24 +325,30 @@
 .photo img{
     width: 100%;
 }
+.friendbt{
+    width: 100%;
+    background-color: white;
+}
 
 .friendbt button{
-    
+    width: 50%;
     background-color: blue;
     color: white; 
     padding: 10px;
+   float: left;
+    
 }
 
-.ads{
-    width: 100%;
-    padding: 10px;
-}
+
 .adstext{
-    font-size: 20px;
-    margin-bottom: 20px;
+    background-color: white;
+    width: 50%;
 }
+
 .dibug{
     font-size: 30px;
+     background-color: white;
+    margin-top: 20px;
     
 } 
 .dibug a i{
