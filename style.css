@@ -372,3 +372,8 @@ body{
     font-size: 20px;
 }
 /*footer section end here*/
+@media only screen and (max-width:480px){
+    .leftsidebar,.maincontent,.rightsidebar{
+        width: 100%;
+    }
+}
